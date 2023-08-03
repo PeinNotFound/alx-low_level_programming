@@ -5,6 +5,7 @@
  * @s: string to print
  * Return: void
 */
+
 void _puts_recursion(char *s)
 {
 	if (*(s) == '\0')
