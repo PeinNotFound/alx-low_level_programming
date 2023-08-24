@@ -1,10 +1,14 @@
 #include "lists.h"
 
+void _constructor(void) __attribute__ ((constructor));
+
 /**
- * print_sentence - Prints a sentence;
+ * _constructor - executes before main()
+ *
+ * Return: void
  */
-void print_sentence(void)
+void _constructor(void)
 {
 	printf("You're beat! and yet, you must allow,\n"
-		   "I bore my house upon my back!\n");
+		 "I bore my house upon my back!\n");
 }
