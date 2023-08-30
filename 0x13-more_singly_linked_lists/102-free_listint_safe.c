@@ -1,10 +1,11 @@
 #include "lists.h"
 
+/* Prototypes */
 size_t circular_list_len(listint_t *head);
 
 /**
- * free_listint_safe - it frees a listint_t list (safe version)
- * @h: is the head of the listint_t list
+ * free_listint_safe - Frees a listint_t list (safe version)
+ * @h: Head of the listint_t list
  *
  * Return: The size of the list that was free’d
  */
@@ -28,10 +29,11 @@ size_t free_listint_safe(listint_t **h)
 
 	return (numNodes);
 }
+
 /**
- * circular_list_len - it calculates number of nodes
- * in a circular listint_t list
- * @head: is the head of the listint_t list
+ * circular_list_len - Calculates number of nodes in a circular listint_t list
+ * @head: Head of the listint_t list
+ *
  * Return: Number of nodes in a circular listint_t list
  */
 size_t circular_list_len(listint_t *head)
