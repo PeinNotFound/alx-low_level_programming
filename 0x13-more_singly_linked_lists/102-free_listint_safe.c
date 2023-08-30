@@ -52,4 +52,3 @@ size_t circular_list_len(listint_t *head)
 
 	return (numNodes);
 }
-
