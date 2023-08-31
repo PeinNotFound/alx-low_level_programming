@@ -4,6 +4,7 @@
  * get_bit - it gets the value of a bit at a given index
  * @n: is the number to get the value from
  * @index: is the index
+ * Return: The value of a bit at a given index
  */
 int get_bit(unsigned long int n, unsigned int index)
 {
